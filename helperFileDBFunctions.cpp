@@ -8,11 +8,11 @@ using namespace std;
 
 void createFile(string fileName, string data)
 {
-  ofstream file(fileName);
+  ofstream fileObject(fileName);
 
-  file << data;
+  fileObject << data;
 
-  file.close();
+  fileObject.close();
 }
 
 string fileToString(string filename)
@@ -22,11 +22,11 @@ string fileToString(string filename)
 
   string temp;
 
-  ifstream file(filename);
-  while (getline(file, temp))
+  ifstream fileObject(filename);
+  while (getline(fileObject, temp))
   {
     result += temp + "\n";
   }
-  file.close();
+  fileObject.close();
   return result;
 }
