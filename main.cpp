@@ -1,7 +1,10 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+
 #include "helperFunctions.cpp"
+#include "admin.cpp"
+
 using namespace std;
 string path = "/home/ahmedsat/c++/todo/DB/Users.txt";
 
@@ -23,7 +26,7 @@ int main()
     case 0:
       break;
     case 1:
-      // Admin::menu();
+      Admin::menu();
     default:
       break;
     }
