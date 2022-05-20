@@ -1,0 +1,6 @@
+1|Dr.Shahid|Cardiology|5 years|(651) 567-0753 x51941 | Shahid55@gmail.com|1234 Main St.
+2|Dr.Ryan Lowe|surgery|3 years|1-297-553-5210 | Ryan42@gmail.com|Mayaguez Dasia Ford
+3|Dr.John Smith|anatomy|2 years|1-792-802-3730 x983 | John70@gmail.com|Eddie Inlet
+4|Dr.John Doe|inwardly|4 years|1-923-854-9087 x834 | doejohn@gmail.com|West Esmeralda
+5|Dr.Marc Moore|orthopedics|3 years|1-848-923-8982 | marc2050@gmail.com|Apt. 881
+6|Dr.Vickie Koss|ayes|2 years|1-923-854-9087 x834 | Koss141@gmail.com|New Carlotta Bethany Brooks
