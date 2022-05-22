@@ -1,13 +1,17 @@
+
+//! Patient class definition
+
 #include <iostream>
-#include <string.h>
+#include <string>
 #include <fstream>
-#include "Doctor.h"
-#include "Patient.h"
+#include "./classes/Doctor.cpp"
+#include "./classes/Patient.cpp"
+
 using namespace std;
 
-// function to clear the screen
 void clearScreen()
 {
+  system("clear");
   system("cls");
 }
 
@@ -17,7 +21,7 @@ int main()
   // object declaration
   Patient patient;
   Doctor doctor;
-
+  // patient.controller();
   // message to inform user of the errors that may occur
   string message = "";
 
@@ -48,7 +52,7 @@ int main()
       doctor.controller(); // call the controller function of doctor class
       break;
     case 2:
-      patient.controller(); // call the controller function of patient class
+      // patient.controller(); // call the controller function of patient class
       break;
     case 0:
       break;
